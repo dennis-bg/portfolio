@@ -1,0 +1,135 @@
+ 
+
+#contact-section{
+    position: relative;
+    padding-bottom: 2em;
+
+    form{
+        
+        
+        width: 70%;
+
+        input, textarea{
+            margin-bottom: 1em;
+            margin-top: 0.5em;
+            width: 97.1%;
+            border-radius: 0.5em;
+            border: 1px solid #CFCFCF;
+            padding: 0.5em;
+        }
+
+       #submit{
+           color: white;
+           background-color: #2F89FC;
+           width: 100%;
+           cursor: pointer;
+           font-size: 1em;
+            font-weight: 500;
+           transition: 0.3s ease;
+           letter-spacing: 0.2em; 
+            border-radius: 1em;
+           &:hover{
+               color: #2F89FC;
+               background-color: white;
+               border: 1px solid #2F89FC;
+               transition: 0.3s ease;
+           }
+       }
+    }
+
+    .contact-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3em;;
+
+        .contact{
+            display: flex;
+            margin-bottom: 1.5em;
+            
+            svg{
+                height: 1.5em;
+                margin-bottom: 0.5em;
+            }
+        }
+
+
+        .large-links{
+            width: 100px;
+           
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    @media only screen and (max-width: 800px){
+
+       
+        .h2-container{
+            padding-top: 3em;
+    
+            h2{
+                text-align: center;
+                font-size: 2em; 
+                color: #40514E;
+            }
+        }
+        
+        .contact-container{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+    
+            .contact{
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 1.5em;
+                
+                svg{
+                    height: 1.5em;
+                    margin-bottom: 0.5em;
+                }
+            }
+    
+            
+
+            .large-links{
+                width: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        
+    }
+
+    @media only screen and (max-width: 1000px){
+        form{
+            margin: 2em auto 2em auto;
+        }
+    }
+
+    @media only screen and (min-width: 1000px){
+
+      
+        .contact-container{
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translateY(125%) translateX(60%);
+            align-items: flex-start;
+
+            .large-links{
+                transform: translateX(20%);
+            }
+        }
+
+        form{
+            width: 50%;
+        }
+
+        
+    }
+}

@@ -1,0 +1,157 @@
+
+#project-section{
+    background-color: #161C1B;
+    color: white;
+    position: relative;
+    padding-bottom: 0.1em;
+
+    
+
+    .project-container{
+        
+        margin-top: 2em;
+        margin-bottom: 6em;
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            color: #FC5185;
+        }
+        p{
+            opacity: 0.75;
+        }
+        .img-container{
+            background-color: white;
+            padding: 1em;
+            border-radius: 1em;
+            opacity: 0.1;
+        }
+        .visit{
+            text-align: center;
+            text-decoration: none;
+            background-color: #30E3CA;
+            color: white;
+            font-weight: 600;
+            font-size: 0.7em;
+            letter-spacing: 0.1em;;
+            padding: 0.5em 1em 0.5em 1em;
+            border-radius: 5em;
+            margin-top: 1em;
+            display: block;
+        }
+    
+        .code{
+            text-align: center;
+            text-decoration: none;
+            background-color: #2F89FC;
+            color: white;
+            font-weight: 600;
+            font-size: 0.7em;
+            letter-spacing: 0.1em;;
+            padding: 0.5em 1em 0.5em 1em;
+            border-radius: 5em;
+            margin-top: 2em;
+        }
+        
+    }
+
+    
+
+    @media only screen and (max-width: 800px){
+        .h2-container{
+            padding-top: 3em;
+            
+
+            h2{
+                text-align: center;
+                font-size: 2em; 
+            }
+        }
+
+        .project-container{
+           
+            align-items: center;
+
+            h3{
+
+                margin: 0 auto 1em auto;
+                width: 80%;
+                text-align: center;
+                font-size: 1.5em;
+            }
+
+            p{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+
+            .img-container{
+                width: 70%;
+                margin: 1em auto 1em auto;
+            }
+               
+            
+        }
+    }
+
+
+    @media only screen and (min-width: 800px){
+        .project-container{
+            width: 45%;
+            
+            h3{
+                font-size: 1.5em;
+                margin-bottom: 1em;
+            }
+
+            .visit{
+                margin-top: 3em;
+                display: inline;
+                width: 60%;
+            }
+            .code{
+                margin-top: 2em;
+                display: inline;
+                width: 60%;
+            }
+        }
+
+        .img-container{
+            position: absolute;
+            height: 38%;
+            width: 43%;
+            right: 0;
+        }
+    }
+    
+    @media only screen and (min-width: 1000px){
+       
+        .img-container{
+            width: 40%;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px){
+        
+    }
+    @media only screen and (min-width: 1300px){
+       
+    }
+    
+    @media only screen and (min-width: 1325px){
+        
+    }
+    
+    @media only screen and (min-width: 1400px){
+        
+    }
+    @media only screen and (min-width: 1600px){
+        
+    
+    }
+    @media only screen and (min-width: 1650px){
+        
+    }
+}
