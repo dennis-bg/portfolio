@@ -1,0 +1,124 @@
+#project-section {
+  background-color: #161C1B;
+  color: white;
+  position: relative;
+  padding-bottom: 0.1em;
+}
+
+#project-section .project-container {
+  margin-top: 2em;
+  margin-bottom: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#project-section .project-container h3 {
+  color: #FC5185;
+}
+
+#project-section .project-container p {
+  opacity: 0.75;
+}
+
+#project-section .project-container .img-container {
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  opacity: 0.1;
+}
+
+#project-section .project-container .visit {
+  text-align: center;
+  text-decoration: none;
+  background-color: #30E3CA;
+  color: white;
+  font-weight: 600;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 5em;
+  margin-top: 1em;
+  display: block;
+}
+
+#project-section .project-container .code {
+  text-align: center;
+  text-decoration: none;
+  background-color: #2F89FC;
+  color: white;
+  font-weight: 600;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 5em;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  #project-section .h2-container {
+    padding-top: 3em;
+  }
+  #project-section .h2-container h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+  #project-section .project-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #project-section .project-container h3 {
+    margin: 0 auto 1em auto;
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  #project-section .project-container p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #project-section .project-container .img-container {
+    width: 70%;
+    margin: 1em auto 1em auto;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #project-section .project-container {
+    width: 45%;
+  }
+  #project-section .project-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  #project-section .project-container .visit {
+    margin-top: 3em;
+    display: inline;
+    width: 60%;
+  }
+  #project-section .project-container .code {
+    margin-top: 2em;
+    display: inline;
+    width: 60%;
+  }
+  #project-section .img-container {
+    position: absolute;
+    height: 38%;
+    width: 43%;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #project-section .img-container {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=projects.css.map */

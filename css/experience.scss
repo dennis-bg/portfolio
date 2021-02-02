@@ -1,0 +1,114 @@
+
+
+#experience-section{
+    position: relative;
+    background-color: #002656;
+    color: white;
+    padding-bottom: 0.5em;
+
+    .exp-container{
+        margin-top: 4em;
+        margin-bottom: 2em;
+        position: relative;
+
+        h3{
+            color: #30E3CA;
+            font-size: 4em;
+            letter-spacing: 0.1em;
+        }
+
+        h4{
+            color: #FC5185;
+            font-size: 1.5em;
+            margin-top: 1em;
+        }
+
+        p{
+            opacity: 0.75;
+        }
+
+    }
+
+    @media only screen and (max-width: 800px){
+        .h2-container{
+            padding-top: 3em;
+            
+
+            h2{
+                text-align: center;
+                font-size: 2em; 
+            }
+        }
+
+        .exp-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3{
+                margin: 0 auto 0.5em auto;
+                width: 80%;
+                text-align: center;
+                font-size: 1.5em;
+            }
+
+            h4{
+                margin: 0 auto 1em auto;
+            }
+
+            p{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+
+        }
+    }
+    @media only screen and (min-width: 800px){
+        .exp-container{
+            margin-bottom: 20em;;
+        }
+
+        .p-container{
+            position: absolute;
+            height: 45%;
+            width: 48%;
+            right: 0;
+            top: 0;
+        }
+
+        .h3{
+            font-size: 10em;
+        }
+    }
+    
+    @media only screen and (min-width: 1000px){
+       
+        .img-container{
+            width: 40%;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px){
+        
+    }
+    @media only screen and (min-width: 1300px){
+       
+    }
+    
+    @media only screen and (min-width: 1325px){
+        
+    }
+    
+    @media only screen and (min-width: 1400px){
+        
+    }
+    @media only screen and (min-width: 1600px){
+        
+    
+    }
+    @media only screen and (min-width: 1650px){
+        
+    }
+}
