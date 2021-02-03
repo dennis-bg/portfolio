@@ -7,14 +7,19 @@
 
 #experience-section .exp-container {
   margin-top: 4em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   position: relative;
 }
 
 #experience-section .exp-container h3 {
   color: #30E3CA;
-  font-size: 4em;
+  font-size: 2em;
   letter-spacing: 0.1em;
+  width: 40%;
+}
+
+#experience-section .exp-container #jetty {
+  font-size: 4em;
 }
 
 #experience-section .exp-container h4 {
@@ -25,6 +30,7 @@
 
 #experience-section .exp-container p {
   opacity: 0.75;
+  font-size: 0.9em;
 }
 
 @media only screen and (max-width: 800px) {
@@ -66,7 +72,7 @@
 
 @media only screen and (min-width: 800px) {
   #experience-section .exp-container {
-    margin-bottom: 20em;
+    margin-bottom: 25em;
   }
   #experience-section .p-container {
     position: absolute;
@@ -74,9 +80,8 @@
     width: 48%;
     right: 0;
     top: 0;
-  }
-  #experience-section .h3 {
-    font-size: 10em;
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
   }
 }
 

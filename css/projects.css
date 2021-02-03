@@ -7,7 +7,7 @@
 
 #project-section .project-container {
   margin-top: 2em;
-  margin-bottom: 6em;
+  margin-bottom: 10em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,10 +26,25 @@
 }
 
 #project-section .project-container .img-container {
-  background-color: white;
-  padding: 1em;
+  background-color: #40514E;
+  padding: 2em;
   border-radius: 1em;
-  opacity: 0.1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project-section .project-container .img-container img {
+  width: 100%;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 #project-section .project-container .visit {
@@ -38,7 +53,7 @@
   background-color: #30E3CA;
   color: white;
   font-weight: 600;
-  font-size: 0.7em;
+  font-size: 1em;
   letter-spacing: 0.1em;
   padding: 0.5em 1em 0.5em 1em;
   border-radius: 5em;
@@ -52,7 +67,7 @@
   background-color: #2F89FC;
   color: white;
   font-weight: 600;
-  font-size: 0.7em;
+  font-size: 1    em;
   letter-spacing: 0.1em;
   padding: 0.5em 1em 0.5em 1em;
   border-radius: 5em;
@@ -108,9 +123,11 @@
     display: inline;
     width: 60%;
   }
+  #project-section .project-container #r-code {
+    margin-top: 3em;
+  }
   #project-section .img-container {
     position: absolute;
-    height: 38%;
     width: 43%;
     right: 0;
   }
@@ -119,6 +136,13 @@
 @media only screen and (min-width: 1000px) {
   #project-section .img-container {
     width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #project-section .img-container {
+    width: 25%;
+    margin-right: 6em;
   }
 }
 /*# sourceMappingURL=projects.css.map */

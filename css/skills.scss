@@ -26,13 +26,21 @@
         ul{
             margin-top: 1em;
             display: inline-block;
-    
+           
             li{
+                margin-bottom: 0.5em;
                 float: left;
                 list-style: outside none none;
-                width: 50%;
+                width: 100%;
                 text-align: center;
             }
+        }
+    }
+
+    #courses{
+        li{
+            width: 100%;
+            margin-bottom: 1em;
         }
     }
 
@@ -46,10 +54,9 @@
                 color: #40514E;
             }
         }
-    
+        
         
     }
-
 
 
     @media only screen and (min-width: 900px){
@@ -62,9 +69,9 @@
             .card{
                 margin: 1em;
             }
+            
         }
     }
-
 
     
 }

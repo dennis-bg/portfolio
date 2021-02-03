@@ -10,7 +10,7 @@
     .project-container{
         
         margin-top: 2em;
-        margin-bottom: 6em;
+        margin-bottom: 10em;
         display: flex;
         flex-direction: column;
 
@@ -21,10 +21,18 @@
             opacity: 0.75;
         }
         .img-container{
-            background-color: white;
-            padding: 1em;
+            background-color: #40514E;
+            padding: 2em;
             border-radius: 1em;
-            opacity: 0.1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            img{
+                width: 100%;
+                border-radius: 1em;
+                margin-bottom: 1em;
+                margin-top: 1em;;
+            }
         }
         .visit{
             text-align: center;
@@ -32,7 +40,7 @@
             background-color: #30E3CA;
             color: white;
             font-weight: 600;
-            font-size: 0.7em;
+            font-size: 1em;
             letter-spacing: 0.1em;;
             padding: 0.5em 1em 0.5em 1em;
             border-radius: 5em;
@@ -46,7 +54,7 @@
             background-color: #2F89FC;
             color: white;
             font-weight: 600;
-            font-size: 0.7em;
+            font-size: 1    em;
             letter-spacing: 0.1em;;
             padding: 0.5em 1em 0.5em 1em;
             border-radius: 5em;
@@ -116,11 +124,14 @@
                 display: inline;
                 width: 60%;
             }
+            #r-code{
+                margin-top: 3em;
+            }
         }
 
         .img-container{
             position: absolute;
-            height: 38%;
+            
             width: 43%;
             right: 0;
         }
@@ -145,7 +156,10 @@
     }
     
     @media only screen and (min-width: 1400px){
-        
+        .img-container{
+            width: 25%;
+            margin-right: 6em;
+        }
     }
     @media only screen and (min-width: 1600px){
         
