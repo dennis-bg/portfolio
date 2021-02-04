@@ -25,6 +25,7 @@
 }
 
 .nav-bar {
+  overflow: hidden;
   z-index: 5000;
   background-color: white;
   display: -webkit-box;
