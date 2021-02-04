@@ -25,7 +25,7 @@
 }
 
 .nav-bar {
-  overflow: hidden;
+  overflow-x: hidden;
   z-index: 5000;
   background-color: white;
   display: -webkit-box;
@@ -34,7 +34,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 5vh;
+  height: 7vh;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
