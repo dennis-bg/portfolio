@@ -16,7 +16,8 @@
     align-items: center;
     height: 7vh;
     
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
 
     #hamburger, #close{
@@ -253,6 +254,7 @@
             display: flex;
             transform: translateX(100%);
             transition: 0.4s ease;
+            
             
             
     

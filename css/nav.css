@@ -34,8 +34,8 @@
       -ms-flex-align: center;
           align-items: center;
   height: 7vh;
-  position: -webkit-sticky;
-  position: sticky;
+  width: 100%;
+  position: fixed;
   top: 0;
 }
 
