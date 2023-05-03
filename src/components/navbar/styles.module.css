@@ -30,23 +30,30 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     height: 7vh;
     width: 100%;
     position: fixed;
     top: 0;
 
-    width: 80%;
+    /* width: 80%; */
   }
 
-  .navBar h5 {
+  .navBar .container {
+    width: 80%;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            justify-content: space-between;
+  }
+
+  .navBar .container h5 {
     font-size: 1em;
   }
 
-  .navBar nav {
+  .navBar .container nav {
     width: 50%;
     height: 100%;
     display: flex;
@@ -54,7 +61,7 @@
     justify-content: flex-end;
   }
 
-  .navBar ul {
+  .navBar .container ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -66,14 +73,14 @@
     max-width: 450px;
   }
 
-  .navBar li {
+  .navBar .container li {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .navBar li a {
+  .navBar .container li a {
     text-decoration: none;
     color: black;
   }

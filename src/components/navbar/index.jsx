@@ -4,7 +4,8 @@ import styles from './styles.module.css'
 export const Navbar = () => (
   <div className={styles.navBar}>
         
-  <h5>Dennis Galinsky</h5>
+    <div className={styles.container}>
+    <h5>Dennis Galinsky</h5>
   
   
   <nav>
@@ -51,6 +52,7 @@ export const Navbar = () => (
       <path id="Path_16" data-name="Path 16" d="M4.688,22.5H25.313v1.875H4.688Z" transform="translate(0 -0.75)"/>
     </g>
   </svg> */}
+    </div>
  
 </div>
 )
