@@ -5,7 +5,30 @@ export const Navbar = () => (
   <div className={styles.navBar}>
         
   <h5>Dennis Galinsky</h5>
-  <div className={styles.links}>
+  
+  
+  <nav>
+    {/* <svg id="close" xmlns="http://www.w3.org/2000/svg" width="23.359" height="23.282" viewBox="0 0 23.359 23.282">
+      <path fill="white" id="close" d="M23.359,5.7,13.984,15l9.375,9.3-2.344,2.344-9.375-9.3-9.3,9.3L0,24.3,9.3,15,0,5.7,2.344,3.359l9.3,9.3,9.375-9.3Z" transform="translate(0 -3.359)"/>
+    </svg> */}
+      <ul>
+        <li>
+          <a id="projects" href="#project-section" >Projects</a>
+        </li>
+        <li>
+          <a id="skills" href="#skills-section" >Skills</a>
+        </li>
+        <li>
+          <a id="experience" href="#experience-section" >Experience</a>
+        </li>
+        <li>
+          <a id="contact" href="#contact-section" >Contact</a>
+        </li>
+
+          
+      </ul>
+
+      {/* <div className={styles.links}>
     <a href="https://www.linkedin.com/in/dennis-galinsky-a1b406150/">
       <svg id="linkedin-nav" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
         <path id="linkedin" d="M0,0V20H20V0ZM4.905,3.932a1.566,1.566,0,0,1,1.607,1.5,1.555,1.555,0,0,1-1.627,1.5H4.862a1.562,1.562,0,0,1-1.586-1.5,1.576,1.576,0,0,1,1.628-1.5Zm8.5,3.975a3.206,3.206,0,0,1,2.368.952,4.486,4.486,0,0,1,.952,2.959v4.99H13.848V12.157c-.007-.872-.305-1.931-1.459-1.967a1.641,1.641,0,0,0-1.479,1.057,1.885,1.885,0,0,0-.106.7v4.863H7.928c.011-2.431.026-4.862.021-7.294q0-1.036-.021-1.395H10.8V9.345a3.875,3.875,0,0,1,.878-.941,2.976,2.976,0,0,1,1.722-.5Zm-9.957.212H6.321v8.689H3.446V8.119Z"/>
@@ -17,36 +40,17 @@ export const Navbar = () => (
       </svg>
     </a>
     
-  </div>
-  
-  <nav>
-    <svg id="close" xmlns="http://www.w3.org/2000/svg" width="23.359" height="23.282" viewBox="0 0 23.359 23.282">
-      <path fill="white" id="close" d="M23.359,5.7,13.984,15l9.375,9.3-2.344,2.344-9.375-9.3-9.3,9.3L0,24.3,9.3,15,0,5.7,2.344,3.359l9.3,9.3,9.375-9.3Z" transform="translate(0 -3.359)"/>
-    </svg>
-      <ul>
-        <div className={styles.liContainer}>
-          <a id="projects" href="#project-section" ><li>Projects</li></a>
-        </div>
-        <div className={styles.liContainer}>
-          <a id="skills" href="#skills-section" ><li>Skills</li></a>
-        </div>
-        <div className={styles.liContainer}>
-          <a id="experience" href="#experience-section" ><li>Experience</li></a>
-        </div>
-        <div className={styles.liContainer}>
-          <a id="contact" href="#contact-section" ><li>Contact</li></a>
-        </div>
-
-          
-      </ul>
+  </div> */}
   </nav>
-  <svg  id="hamburger" xmlns="http://www.w3.org/2000/svg" width="20.625" height="18" viewBox="0 0 20.625 18">
+
+
+  {/* <svg  id="hamburger" xmlns="http://www.w3.org/2000/svg" width="20.625" height="18" viewBox="0 0 20.625 18">
     <g id="hamburger-menu" transform="translate(-4.688 -5.625)">
       <path id="Path_14" data-name="Path 14" d="M4.688,5.625H25.313V7.5H4.688Z"/>
       <path id="Path_15" data-name="Path 15" d="M4.688,14.063H25.313v1.875H4.688Z" transform="translate(0 -0.375)"/>
       <path id="Path_16" data-name="Path 16" d="M4.688,22.5H25.313v1.875H4.688Z" transform="translate(0 -0.75)"/>
     </g>
-  </svg>
+  </svg> */}
  
 </div>
 )
