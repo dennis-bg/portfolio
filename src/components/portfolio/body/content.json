@@ -1,0 +1,77 @@
+{
+    "experience": [
+        {
+            "company": "CorpAxe",
+            "position": "React Developer",
+            "startDate": "December 2021",
+            "endDate": "March 2023",
+            "bullets": [
+                "Converted legacy pages from jQuery (ES5) to modern React pages (ES6)",
+                "Partnered with the UX team to ideate and implement creative solutions to common web application business problems, such as best ways to load sizeable amounts of data.",
+                "Ensured converted pages worked seamlessly with the REST API and legacy pages to maintain a consistent user experience.",
+                "Refactored code base to reduce total lines of code by consolidating similar features into reusable components and hooks, increasing developer productivity and decreasing cloud (Azure) costs",
+                "Increased code confidence by writing extensive Jest unit tests for React components and Cypress End to End tests for both React and legacy pages.",
+                "Reduced technical debt by updating existing JavaScript to strongly typed Typescript, making Cypress End to End tests 40% more reliable, and reducing code warnings on the build pipeline by 66%",
+                "Promoted company culture and team bonding by leading the social committee."
+            ]
+        },
+        {
+            "company": "Tata Consultancy Services",
+            "position": "Software Engineer",
+            "startDate": "May 2021",
+            "endDate": "November 2021",
+            "bullets": [
+                "Led a team of five to design, develop, and test an online shopping application (Angular, Node, MongoDB).",
+                "Developed a single page food ordering application containing the following user flows: Login, Registration, add to cart, place order, edit user details, forgot password, and update settings (Angular, REST API).",
+                "Worked in a group, agile environment to create a recipe blog application containing the following user flows: add recipe, edit recipe, delete recipe (Java, JSP, Bootstrap)."
+            ]
+        },
+        {
+            "company": "Jetty",
+            "position": "Intern",
+            "startDate": "July 2019",
+            "endDate": "August 2019",
+            "bullets": [
+                "Executed research effort to map the addressable market of Multifamily Real Estate owners and property managers in the United States",
+                "Developed and executed an efficient process for exporting a complete set of property-level data from CoStar (leading real estate industry data source)",
+                "Used Excel to collect, cleanse, and aggregate data by owner to get an accurate read on the size of each owner's portfolio, and the number of owners in each geographical territory",
+                "Enhanced the account list with contacts aligned to Jetty's target buyer persona(s) -- identified the correct email domain for each account, used the domain as the search key in ZoomInfo (sales intelligence tool for prospecting), then linked resulting contacts back to the account list for upload to Salesforce"
+            ]
+        }
+    ],
+    
+    "projects": [
+        {
+            "technologies": ["Node.js", "Express", "EJS", "Rest API", "MySQL, AWS (EC2, RDS, Load Balancer)", "jQuery", "Ajax", "JSON", "Bootstrap", "JavaScript", "HTML", "CSS"],
+            "description": [
+                "My team and I created this web application to tackle two issues that many home cooks face.",
+                "Many Recipes found online require ingredients that a cook may not have. At Community Pantry, a user can input what ingredients are available and we return what can be made. The algorithm is designed to prioritize recipes that maximize the user's available ingredients and minimize how many need to be bought.", 
+                "What if a user wants a specific recipe that a friend made? Well, Community Pantry's social media aspect alows users to share home made recipes with their family and friends. These recipes can be saved for a later time."
+            ],
+            "nextSteps": [
+                "Allow Users to follow others on top of being able to view pages and save recipes",
+                "Mobile Optimization"
+            ],
+            "gitLink" : "https://github.com/dennis-bg/community_Pantry"
+        },
+        {
+            "technologies": ["Java", "JavaFX", "FXML"],
+            "description": [
+                "I have been Collecting Rubik's Cubes for well over a decade. However, I can't always have one with me. So I decided to build a virtual version",
+                "The app allows a user to scramble and solve a standard (3 x 3), 2-Dimensional Rubik's Cube"
+            ],
+            "nextSteps": [
+                "Redesinging the front end to resemble a 3-Dimensional model",
+                "Refactoring the code to allow the user to solve different N x N puzzles using polymorphism"
+            ],
+            "gitLink": "https://github.com/dennis-bg/rubiks_cube_2d"
+        }
+    ],
+
+    "contactInfo" : {
+        "phone": "+1.201.615.3821",
+        "email": "dennis.galinsky@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/dennis-galinsky-a1b406150/",
+        "gitHub": "https://github.com/dennis-bg"
+    }
+}
