@@ -40,6 +40,19 @@
     /* width: 80%; */
   }
 
+  .navBar .container .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .navBar .container .links a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
   .navBar .container {
     width: 80%;
     display: flex;
@@ -51,6 +64,7 @@
 
   .navBar .container h5 {
     font-size: 1em;
+    margin-right: 20px;
   }
 
   .navBar .container nav {
