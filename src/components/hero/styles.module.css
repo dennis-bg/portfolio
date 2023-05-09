@@ -1,0 +1,298 @@
+.hero {
+    margin-top: 7vh;
+    /* z-index: -1000; */
+    height: 93vh;
+    width: 100%;
+  }
+  
+  /* @media only screen and (max-width: 800px) {
+    .hero {
+      height: 70vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      overflow: hidden;
+    }
+    .hero .watermark {
+      position: absolute;
+      font-size: 15em;
+      font-weight: 600;
+      opacity: 0.03;
+      top: 300px;
+      left: -400px;
+      z-index: -1;
+      display: none;
+    }
+    .hero .wantermark2 {
+      position: absolute;
+      font-size: 15em;
+      font-weight: 600;
+      opacity: 0.03;
+      top: 20px;
+      left: -50px;
+      z-index: -1;
+      display: none;
+    }
+    .hero h1 {
+      width: 250px;
+      color: #30E3CA;
+      margin: 1em 1em 1em 1em;
+      font-size: 3em;
+      line-height: 1.2em;
+      text-align: center;
+    }
+    .hero h1 span {
+      color: #40514E;
+    }
+    .hero p {
+      text-align: center;
+      width: 70%;
+      margin-bottom: 3em;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 300;
+      line-height: 2em;
+    }
+    .hero .viewContainer {
+      height: 10vh;
+      position: relative;
+    }
+    .hero #view {
+      margin-top: 2em;
+      text-decoration: none;
+      background-color: #30E3CA;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      padding: 0.5em 1em 0.5em 1em;
+      border-radius: 5em;
+    }
+    .hero #download, .hero .brickOne, .hero .brickTwo, .hero .brickThree, .hero .brickFour {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .hero .h1Container {
+      margin-left: 5.9em;
+      height: 40vh;
+      position: relative;
+    }
+    .hero .h1Container h1 {
+      width: 350px;
+      color: #30E3CA;
+      line-height: 1.2em;
+      text-align: left;
+      position: absolute;
+      bottom: 0;
+    }
+    .hero .h1Container h1 span {
+      color: #40514E;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .hero h1 {
+      font-size: 4em;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .hero .pContainer {
+      margin-left: 6em;
+      height: 18vh;
+      position: relative;
+    }
+    .hero .pContainer p {
+      text-align: left;
+      width: 350px;
+      font-weight: 300;
+      line-height: 2em;
+      position: absolute;
+      bottom: 0;
+    }
+    .hero .viewContainer {
+      margin-left: 6em;
+      height: 9vh;
+      position: relative;
+    }
+    .hero .viewContainer #view {
+      text-decoration: none;
+      background-color: #30E3CA;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      padding: 0.5em 1em 0.5em 1em;
+      border-radius: 5em;
+      position: absolute;
+      bottom: 0;
+    }
+    .hero .downloadContainer {
+      margin-left: 6em;
+      height: 8vh;
+      position: relative;
+    }
+    .hero .downloadContainer #download {
+      text-decoration: none;
+      background-color: #2F89FC;
+      color: white;
+      font-weight: 300;
+      font-size: 0.7em;
+      letter-spacing: 0.1em;
+      padding: 0.5em 1em 0.5em 1em;
+      border-radius: 5em;
+      position: absolute;
+      bottom: 0;
+    }
+    .hero .watermark, .hero .wantermark2 {
+      position: absolute;
+      font-size: 20em;
+      font-weight: 700;
+      z-index: -2000;
+      opacity: 0.02;
+    }
+    .hero .watermark {
+      top: 0;
+      -webkit-animation: water1 120s linear infinite alternate;
+              animation: water1 120s linear infinite alternate;
+    }
+    .hero .wantermark2 {
+      top: 0;
+      margin-top: 50vh;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      -webkit-animation: water2 120s linear infinite alternate;
+              animation: water2 120s linear infinite alternate;
+    }
+    @-webkit-keyframes water1 {
+      from {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+      }
+      to {
+        -webkit-transform: translateX(-70%);
+                transform: translateX(-70%);
+      }
+    }
+    @keyframes water1 {
+      from {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+      }
+      to {
+        -webkit-transform: translateX(-70%);
+                transform: translateX(-70%);
+      }
+    }
+    @-webkit-keyframes water2 {
+      from {
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+      }
+      to {
+        -webkit-transform: translateX(30%);
+                transform: translateX(30%);
+      }
+    }
+    @keyframes water2 {
+      from {
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+      }
+      to {
+        -webkit-transform: translateX(30%);
+                transform: translateX(30%);
+      }
+    }
+    .hero .graphic {
+      position: absolute;
+      height: 95vh;
+      width: 38%;
+      margin-right: 4.8em;
+      right: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .hero .graphic .brickOne, .hero .graphic .brickTwo, .hero .graphic .brickThree, .hero .graphic .brickFour {
+      width: 25%;
+    }
+    .hero .graphic .brickOne {
+      background-color: #30E3CA;
+      height: 40vh;
+    }
+    .hero .graphic .brickTwo {
+      background-color: #2F89FC;
+      height: 80vh;
+    }
+    .hero .graphic .brickThree {
+      background-color: #40514E;
+      height: 70vh;
+    }
+    .hero .graphic .brickFour {
+      background-color: #FC5185;
+      height: 60vh;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .hero h1 {
+      font-size: 5em;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .hero .graphic {
+      width: 30%;
+      margin-right: 8em;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .hero h1 {
+      font-size: 6em;
+    }
+    .hero .h1Container, .hero .pContainer, .hero .viewContainer, .hero .downloadContainer {
+      margin-left: 10em;
+    }
+  }
+  
+  @media only screen and (min-width: 1300px) {
+    .hero h1 {
+      font-size: 7em;
+    }
+    .hero .graphic {
+      width: 25%;
+      margin-right: 11.2em;
+    }
+    .hero .h1Container, .hero .pContainer, .hero .viewContainer, .hero .downloadContainer {
+      margin-left: 14em;
+    }
+  }
+  
+  @media only screen and (min-width: 1600px) and (max-width: 1650px) {
+    .hero .h1Container, .hero .pContainer, .hero .viewContainer, .hero .downloadContainer {
+      margin-left: 16em;
+    }
+    .hero .graphic {
+      width: 30%;
+      margin-right: 12.8em;
+    }
+  }
+  
+  @media only screen and (min-width: 1650px) {
+    .hero .h1Container, .hero .pContainer, .hero .viewContainer, .hero .downloadContainer {
+      margin-left: 18em;
+    }
+    .hero .graphic {
+      width: 30%;
+      margin-right: 14.4em;
+    }
+  } */
