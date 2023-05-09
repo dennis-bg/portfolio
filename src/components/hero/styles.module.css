@@ -1,6 +1,5 @@
 .hero {
     margin-top: 7vh;
-    /* z-index: -1000; */
     height: 93vh;
     width: 100%;
 }
@@ -17,12 +16,12 @@
   text-align: left;
   position: absolute;
   bottom: 0;
-  font-size: 6em;
+  font-size: 7em;
 }
 
 .h1Container h1 span {
   color: var(--dark-grey);
-  display: block;
+  /* display: block; */
 }
 
 .pContainer {

@@ -1,8 +1,11 @@
 import React from "react";
 import styles from './styles.module.css';
 import { Container } from "../common/container";
+const resume = require('./Dennis Galinsky Resume.pdf');
 
 export const Hero  = () => {
+
+
 
     return (
         <Container>
@@ -17,7 +20,7 @@ export const Hero  = () => {
               <a href="#project-section">View Portfolio <span>Below</span></a>
             </div>
             <div className={styles.downloadContainer}>
-              <a href="Dennis Galinsky Resume.pdf" download="Dennis Galinsky Resume">Download Resume</a>
+              <a href={resume} download="Dennis Galinsky Resume">Download Resume</a>
             </div>
             {/* <div className={styles.watermark2}>&ltDBG/&gt</div>
             <div className={styles.watermark}>&ltDBG/&gt</div> */}
