@@ -9,7 +9,7 @@ function App() {
     <div style={{backgroundColor: "#f5f5f5"}}>
       <Navbar/>
       <Hero/>
-      {/* <Experience experience={content.experience}/> */}
+      <Experience experience={content.experience}/>
     </div>
   );
 }

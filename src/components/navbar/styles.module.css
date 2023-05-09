@@ -28,6 +28,8 @@
     background-color: white;
     height: 7vh;
     width: 100%;
+    position: fixed;
+    z-index: 4000;
   }
   
    .navBar > div > div {
