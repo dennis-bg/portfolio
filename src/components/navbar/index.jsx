@@ -18,7 +18,7 @@ export const Navbar = () => (
               <a target="_blank" href="https://github.com/dennis-bg">
                 <SmallGithubSVG/>
               </a>
-            </div>
+          </div>
         
         
         <nav>
