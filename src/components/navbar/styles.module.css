@@ -40,20 +40,20 @@
     /* width: 80%; */
   }
 
-  .navBar .container .links {
+  .navBar > div .links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
   }
 
-  .navBar .container .links a {
+  .navBar > div .links a {
     display: flex;
     align-items: center;
     margin-right: 10px;
   }
 
-  .navBar .container {
+  .navBar > div {
     width: 80%;
     display: flex;
     -webkit-box-align: center;
@@ -62,12 +62,12 @@
             justify-content: space-between;
   }
 
-  .navBar .container h5 {
+  .navBar > div h5 {
     font-size: 1em;
     margin-right: 20px;
   }
 
-  .navBar .container nav {
+  .navBar > div nav {
     width: 50%;
     height: 100%;
     display: flex;
@@ -75,7 +75,7 @@
     justify-content: flex-end;
   }
 
-  .navBar .container ul {
+  .navBar > div ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -87,14 +87,14 @@
     max-width: 450px;
   }
 
-  .navBar .container li {
+  .navBar > div li {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .navBar .container li a {
+  .navBar > div li a {
     text-decoration: none;
     color: black;
   }
