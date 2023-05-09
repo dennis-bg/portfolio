@@ -3,7 +3,76 @@
     /* z-index: -1000; */
     height: 93vh;
     width: 100%;
-  }
+}
+
+.h1Container {
+    height: 45vh;
+    position: relative;
+}
+
+.h1Container h1 {
+  width: 350px;
+  color: var(--green);
+  line-height: 1.2em;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  font-size: 6em;
+}
+
+.h1Container h1 span {
+  color: var(--dark-grey);
+  display: block;
+}
+
+.pContainer {
+  height: 18vh;
+  position: relative;
+}
+
+.pContainer p {
+  text-align: left;
+  width: 350px;
+  font-weight: 300;
+  line-height: 2em;
+  position: absolute;
+  bottom: 0;
+}
+
+.viewContainer {
+  height: 9vh;
+  position: relative;
+}
+
+.viewContainer > a {
+  text-decoration: none;
+  background-color: var(--green);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 0.5em 1em;
+  border-radius: 5em;
+  position: absolute;
+  bottom: 0;
+}
+
+.downloadContainer {
+  height: 8vh;
+  position: relative;
+}
+
+.downloadContainer > a {
+  text-decoration: none;
+  background-color: var(--blue);
+  color: white;
+  font-weight: 300;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  padding: 0.5em 1em;
+  border-radius: 5em;
+  position: absolute;
+  bottom: 0;
+}
   
   /* @media only screen and (max-width: 800px) {
     .hero {
