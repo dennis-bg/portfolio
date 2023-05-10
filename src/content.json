@@ -50,6 +50,7 @@
                 "What if a user wants a specific recipe that a friend made? Well, Community Pantry's social media aspect alows users to share home made recipes with their family and friends. These recipes can be saved for a later time."
             ],
             "nextSteps": [
+                "Refactor the frontend in React and have the backend only handle APIs. Currently, the frontend is rendered server-side.",
                 "Allow Users to follow others on top of being able to view pages and save recipes",
                 "Mobile Optimization"
             ],
@@ -63,6 +64,7 @@
                 "The app allows a user to scramble and solve a standard (3 x 3), 2-Dimensional Rubik's Cube"
             ],
             "nextSteps": [
+                "Create a mobile app in React Native",
                 "Redesinging the front end to resemble a 3-Dimensional model",
                 "Refactoring the code to allow the user to solve different N x N puzzles using polymorphism"
             ],

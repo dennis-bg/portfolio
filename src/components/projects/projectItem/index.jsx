@@ -6,13 +6,13 @@ export const ProjectItem = ({ data }) => (
         <div className={styles.left}>
             <h3>{data.name}</h3>
             {data.description.map(item => 
-                <p>{item}</p>    
+                <p key={item} className={styles.content}>{item}</p>    
             )}
-            <p>Technologies : </p>
-            <p>{data.technologies.join(", ")}</p>
-            <p>Next Steps : </p>
+            <p className={styles.sectionTitle}>Technologies : </p>
+            <p className={styles.content}>{data.technologies.join(", ")}</p>
+            <p className={styles.sectionTitle}>Next Steps : </p>
             {data.nextSteps.map(step => 
-                <p>{step}</p>    
+                <p key={step} className={styles.content}>{step}</p>    
             )}
         </div>
         <div className={styles.right}>

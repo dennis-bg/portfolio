@@ -1,0 +1,22 @@
+.item {
+    margin-bottom: 6em;
+}
+
+.item h3 {
+    color: var(--pink);
+    font-size: 2em;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.content {
+    opacity: 0.9;
+}
+
+.sectionTitle {
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+}
