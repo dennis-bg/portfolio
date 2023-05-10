@@ -1,0 +1,36 @@
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6em;
+}
+
+.left {
+    width: 45%;
+}
+
+.left h3 {
+    font-size: 4em;
+    color: var(--green);
+    margin: 0;
+    text-align: end;
+}
+
+.left h4 {
+    font-size: 1.5em;
+    color: var(--pink);
+    text-align: end;
+}
+
+.right {
+    width: 40%;
+}
+
+.right ul {
+    list-style: none;
+}
+
+.right li {
+    margin-bottom: 1em;
+    opacity: 0.9;
+}
