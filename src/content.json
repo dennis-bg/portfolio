@@ -42,6 +42,7 @@
     
     "projects": [
         {
+            "name": "Community Pantry",
             "technologies": ["Node.js", "Express", "EJS", "Rest API", "MySQL, AWS (EC2, RDS, Load Balancer)", "jQuery", "Ajax", "JSON", "Bootstrap", "JavaScript", "HTML", "CSS"],
             "description": [
                 "My team and I created this web application to tackle two issues that many home cooks face.",
@@ -55,6 +56,7 @@
             "gitLink" : "https://github.com/dennis-bg/community_Pantry"
         },
         {
+            "name": "Rubik's Cube Desktop App",
             "technologies": ["Java", "JavaFX", "FXML"],
             "description": [
                 "I have been Collecting Rubik's Cubes for well over a decade. However, I can't always have one with me. So I decided to build a virtual version",
