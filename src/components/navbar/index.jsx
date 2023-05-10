@@ -4,6 +4,7 @@ import styles from './styles.module.css'
 import { SmallLinkInSVG } from "../../svgs/linkedInSVG";
 import { SmallGithubSVG } from "../../svgs/gitHubSVG";
 import { Container } from "../common/container";
+import { LinkButton } from "../common/container/linkButton";
 
 export const Navbar = () => (
   <div className={styles.navBar}>
@@ -12,12 +13,16 @@ export const Navbar = () => (
      <Container>
           <div className={styles.links}>
               <h5>Dennis Galinsky</h5>
-              <a target="_blank" href="https://www.linkedin.com/in/dennis-galinsky-a1b406150/">
-                <SmallLinkInSVG/>
-              </a>
-              <a target="_blank" href="https://github.com/dennis-bg">
-                <SmallGithubSVG/>
-              </a>
+              <LinkButton
+                link={"https://www.linkedin.com/in/dennis-galinsky-a1b406150/"}
+                text={"Connect with me"}
+                svg={SmallLinkInSVG}
+              />
+              <LinkButton
+                link={"https://github.com/dennis-bg"}
+                text={"Visit my Github"}
+                svg={SmallGithubSVG}
+              />
           </div>
         
         

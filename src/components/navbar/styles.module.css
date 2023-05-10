@@ -48,13 +48,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    cursor: pointer;
-  }
-
-  .navBar .links a {
-    display: flex;
     align-items: center;
-    margin-right: 10px;
   }
 
   .navBar > div > div {
