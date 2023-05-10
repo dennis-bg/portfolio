@@ -96,6 +96,10 @@
     text-decoration: none;
     color: black;
   }
+
+  .navBar li:hover a{
+    color: var(--green)
+  }
   
   /*.navBar #hamburger, .navBar #close {
     display: none;
