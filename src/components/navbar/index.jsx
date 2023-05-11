@@ -1,10 +1,9 @@
 import React from "react";
-
 import styles from './styles.module.css'
 import { SmallLinkInSVG } from "../../svgs/linkedInSVG";
 import { SmallGithubSVG } from "../../svgs/gitHubSVG";
 import { Container } from "../common/container";
-import { LinkButton } from "../common/container/linkButton";
+import { LinkButton } from "../common/linkButton";
 
 export const Navbar = () => {
 
