@@ -30,6 +30,7 @@
     width: 100%;
     position: fixed;
     z-index: 4000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
   
    .navBar > div > div {
@@ -95,10 +96,12 @@
   .navBar li a {
     text-decoration: none;
     color: black;
+    transition-duration: 0.25s;
   }
 
   .navBar li:hover a{
-    color: var(--green)
+    color: var(--green);
+    transition-duration: 0.25s;
   }
   
   /*.navBar #hamburger, .navBar #close {
