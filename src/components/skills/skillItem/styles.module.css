@@ -1,0 +1,22 @@
+.skillItem {
+    background-color: white;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 2em;
+}
+
+.skillItem ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+.skillItem li {
+    text-align: center;
+    margin-bottom: 0.75em;
+}
