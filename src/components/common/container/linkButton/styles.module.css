@@ -2,7 +2,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-left: 10px;
     text-decoration: none;
     border-radius: 5em;
     border: 1px solid var(--black);

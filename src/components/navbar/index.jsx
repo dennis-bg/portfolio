@@ -11,8 +11,33 @@ export const Navbar = () => (
         
     
      <Container>
-          <div className={styles.links}>
-              <h5>Dennis Galinsky</h5>
+
+      <div className={styles.links}>
+      <h5>Dennis Galinsky</h5>
+
+<nav>
+    <ul>
+      <li>
+        <a id="projects" href="#project-section" >Projects</a>
+      </li>
+      <li>
+        <a id="skills" href="#skills-section" >Skills</a>
+      </li>
+      <li>
+        <a id="experience" href="#experience-section" >Experience</a>
+      </li>
+      <li>
+        <a id="contact" href="#contact-section" >Contact</a>
+      </li>
+
+        
+    </ul>
+
+    
+</nav>
+      </div>
+              
+        <div className={styles.links}>
               <LinkButton
                 link={"https://www.linkedin.com/in/dennis-galinsky-a1b406150/"}
                 text={"Connect with me"}
@@ -24,28 +49,6 @@ export const Navbar = () => (
                 svg={SmallGithubSVG}
               />
           </div>
-        
-        
-        <nav>
-            <ul>
-              <li>
-                <a id="projects" href="#project-section" >Projects</a>
-              </li>
-              <li>
-                <a id="skills" href="#skills-section" >Skills</a>
-              </li>
-              <li>
-                <a id="experience" href="#experience-section" >Experience</a>
-              </li>
-              <li>
-                <a id="contact" href="#contact-section" >Contact</a>
-              </li>
-
-                
-            </ul>
-
-            
-        </nav>
      </Container>
 
    
