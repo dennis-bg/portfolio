@@ -69,7 +69,7 @@
 
   .navBar nav {
     width: 50%;
-    height: 100%;
+    height: 7vh;
     display: flex;
     flex-direction: row;
     /* justify-content: flex-end; */
@@ -99,6 +99,10 @@
     text-decoration: none;
     color: black;
     transition-duration: 0.25s;
+  }
+
+  .navBar li:hover {
+    cursor: pointer;
   }
 
   .navBar li:hover a{
