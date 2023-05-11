@@ -54,6 +54,20 @@
                 "Allow Users to follow others on top of being able to view pages and save recipes",
                 "Mobile Optimization"
             ],
+            "images":[
+                {
+                    "src": "cp_home.jpg",
+                    "alt": "Community Pantry Home"
+                },
+                {
+                    "src": "cp_recipe.jpg",
+                    "alt": "Community Pantry Recipe"
+                },
+                {
+                    "src": "cp_top10.jpg",
+                    "alt": "Community Pantry Top 10"
+                }
+            ],
             "gitLink" : "https://github.com/dennis-bg/community_Pantry"
         },
         {
@@ -67,6 +81,16 @@
                 "Create a mobile app in React Native",
                 "Redesinging the front end to resemble a 3-Dimensional model",
                 "Refactoring the code to allow the user to solve different N x N puzzles using polymorphism"
+            ],
+            "images":[
+                {
+                    "src": "cube_solved.jpg",
+                    "alt": "Solved Rubik's Cube"
+                },
+                {
+                    "src": "cube_scrambled.jpg",
+                    "alt": "Scrambled Rubik's Cube"
+                }
             ],
             "gitLink": "https://github.com/dennis-bg/rubiks_cube_2d"
         }

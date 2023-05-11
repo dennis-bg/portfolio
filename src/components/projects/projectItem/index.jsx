@@ -14,9 +14,14 @@ export const ProjectItem = ({ data }) => (
             {data.nextSteps.map(step => 
                 <p key={step} className={styles.content}>{step}</p>    
             )}
+            <a target="_blank" href={data.gitLink}>View Code</a>
         </div>
         <div className={styles.right}>
-
+            <div className={styles.imgContainer}>
+                {data.images.map(img => 
+                    <img key={img.alt} src={require(`../../../images/${img.src}`)} alt={img.alt}/>
+                )}
+            </div>
         </div>
     </div>
 )
