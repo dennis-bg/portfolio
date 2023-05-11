@@ -39,7 +39,6 @@
             ]
         }
     ],
-    
     "projects": [
         {
             "name": "Community Pantry",
@@ -95,11 +94,24 @@
             "gitLink": "https://github.com/dennis-bg/rubiks_cube_2d"
         }
     ],
-
     "contactInfo" : {
         "phone": "+1.201.615.3821",
         "email": "dennis.galinsky@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/dennis-galinsky-a1b406150/",
         "gitHub": "https://github.com/dennis-bg"
-    }
+    },
+    "skills": [
+        {
+            "title": "Languages",
+            "list": ["React","TypeScript","JavaScript","Java","Node.js","Python","Angular","C","jQuery","SQL","R","Haskell","CSS, SCSS","HTML5"] 
+        },
+        {
+            "title": "Tools",
+            "list": ["Cypress","Jest","Storybook","Azure DevOps","AWS","Postman","Git","Agile Workflow","Jira","Confluence","MySQL","Linux","Visual Studio, VSC","Eclipse","IntelliJ","PyCharm","Ajax"]
+        },
+        {
+            "title": "Coursework",
+            "list": ["Artificial Intelligence","Software Engineering","Software Methodology","Internet Technology","Principles of Info & Data Management","Principles of Programming Languages","Systems Programming","Computer Architecture"]
+        }
+    ]
 }
