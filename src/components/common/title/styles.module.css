@@ -1,0 +1,9 @@
+.titleContainer {
+    margin: 4em 0;
+}
+
+.titleContainer h2 {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 0.075em;
+}
