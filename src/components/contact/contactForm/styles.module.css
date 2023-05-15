@@ -1,0 +1,25 @@
+.form {
+    width: 80%;
+}
+
+.form input, .form textarea {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid #CFCFCF;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.submit {
+        text-align: center;
+    text-decoration: none;
+    background-color: #2F89FC;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 5em;
+    margin-top: 2em;
+    display: block;
+}

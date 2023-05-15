@@ -1,0 +1,31 @@
+.contact {
+    padding-bottom: 10em;
+}
+
+.contact, .links {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.right {
+    padding-left: 5em;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.links {
+    margin-top: 1.5em;
+}
+
+.links a{
+    margin-left: 0;
+    margin-right: 1em;
+}

@@ -95,8 +95,8 @@
         }
     ],
     "contactInfo" : {
-        "phone": "+1.201.615.3821",
-        "email": "dennis.galinsky@gmail.com",
+        "phone": "tel:+12016153821",
+        "email": "mailto:dennis.galinsky@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/dennis-galinsky-a1b406150/",
         "gitHub": "https://github.com/dennis-bg"
     },

@@ -5,6 +5,7 @@ import { Hero } from './components/hero';
 import { Experience } from './components/experience';
 import { Projects } from './components/projects';
 import { Skills } from './components/skills';
+import { Contact } from './components/contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Experience experience={content.experience}/>
       <Skills skills={content.skills}/>
       <Projects projects={content.projects}/>
+      <Contact contactInfo={content.contactInfo}/>
     </div>
   );
 }
