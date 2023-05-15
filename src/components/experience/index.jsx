@@ -5,7 +5,7 @@ import { ExperienceItem } from "./experienceItem";
 import { MyTitle } from "../common/title";
 
 export const Experience = ({experience}) => (
-    <div className={styles.experience}>
+    <div className={styles.experience} id="experience">
         <Container>
             <MyTitle title={"Experience"}/>
             {experience.map(data => 

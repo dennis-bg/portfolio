@@ -24,6 +24,11 @@
     }
   } */
 
+/* 
+  .active {
+    color: var(--green) !important;
+  } */
+
   .navBar {
     background-color: white;
     height: 7vh;
@@ -101,6 +106,10 @@
     transition-duration: 0.25s;
   }
 
+ .active {
+    color: var(--green) !important; 
+  }
+
   .navBar li:hover {
     cursor: pointer;
   }
@@ -109,6 +118,8 @@
     color: var(--green);
     transition-duration: 0.25s;
   }
+
+  
   
   /*.navBar #hamburger, .navBar #close {
     display: none;

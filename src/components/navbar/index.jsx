@@ -1,9 +1,10 @@
 import React from "react";
-import styles from './styles.module.css'
+import { Link } from 'react-scroll';
 import { SmallLinkInSVG } from "../../svgs/linkedInSVG";
 import { SmallGithubSVG } from "../../svgs/gitHubSVG";
 import { Container } from "../common/container";
 import { LinkButton } from "../common/linkButton";
+import styles from './styles.module.css'
 
 export const Navbar = ({ links}) => {
 
@@ -26,16 +27,16 @@ export const Navbar = ({ links}) => {
       <nav>
           <ul>
             <li onClick={e => handleLiClick(e)}>
-              <a id="projects" href="#project-section" >Projects</a>
+              <Link activeClass={styles.active} to="experience" smooth={true} offset={-65} duration={500} spy={true}>Experience</Link>
             </li>
             <li onClick={e => handleLiClick(e)}>
-              <a id="skills" href="#skills-section" >Skills</a>
+              <Link activeClass={styles.active} to="skills" smooth={true} offset={-65} duration={500} spy={true}>Skills</Link>
             </li>
             <li onClick={e => handleLiClick(e)}>
-              <a id="experience" href="#experience-section" >Experience</a>
+              <Link activeClass={styles.active} to="projects" smooth={true} offset={-65} duration={500} spy={true}>Projects</Link>
             </li>
             <li onClick={e => handleLiClick(e)}>
-              <a id="contact" href="#contact-section" >Contact</a>
+              <Link activeClass={styles.active} to="contact" smooth={true} offset={-65} duration={500} spy={true}>Contact</Link>
             </li>
 
               

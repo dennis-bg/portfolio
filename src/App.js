@@ -8,6 +8,7 @@ import { Skills } from './components/skills';
 import { Contact } from './components/contact';
 
 function App() {
+
   return (
     <div style={{backgroundColor: "#f5f5f5"}}>
       <Navbar links={content.contactInfo}/>

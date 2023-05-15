@@ -5,7 +5,7 @@ import { ProjectItem } from "./projectItem";
 import { MyTitle } from "../common/title";
 
 export const Projects = ({projects}) => (
-    <div className={styles.projects}>
+    <div className={styles.projects} id="projects">
         <Container>
             <MyTitle title={"Projects"}/>
             {projects.map(project => 

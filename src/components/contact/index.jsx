@@ -10,38 +10,40 @@ import { MailSVG } from '../../svgs/MailSVG';
 import styles from './styles.module.css';
 
 export const Contact = ({ contactInfo }) => (
-    <Container>
-        <MyTitle title={"Contact"}/>
-        <div className={styles.contact}>
-            <div className={styles.left}>
-                <ContactForm/>
+    <div id="contact">
+        <Container>
+            <MyTitle title={"Contact"}/>
+            <div className={styles.contact}>
+                <div className={styles.left}>
+                    <ContactForm/>
+                </div>
+                <div className={styles.right}>
+                        <div className={styles.links}>
+                            <LinkButton
+                                link={contactInfo.phone}
+                                text={"Call me"}
+                                svg={PhoneSVG}
+                            />
+                            <LinkButton
+                                link={contactInfo.email}
+                                text={"Email me"}
+                                svg={MailSVG}
+                            />
+                        </div>
+                        <div className={styles.links}>
+                            <LinkButton
+                                link={contactInfo.linkedIn}
+                                text={"Connect with me"}
+                                svg={SmallLinkInSVG}
+                            />
+                            <LinkButton
+                                link={contactInfo.gitHub}
+                                text={"Visit my Github"}
+                                svg={SmallGithubSVG}
+                            />
+                        </div>
+                </div>
             </div>
-            <div className={styles.right}>
-                    <div className={styles.links}>
-                        <LinkButton
-                            link={contactInfo.phone}
-                            text={"Call me"}
-                            svg={PhoneSVG}
-                        />
-                        <LinkButton
-                            link={contactInfo.email}
-                            text={"Email me"}
-                            svg={MailSVG}
-                        />
-                    </div>
-                    <div className={styles.links}>
-                        <LinkButton
-                            link={contactInfo.linkedIn}
-                            text={"Connect with me"}
-                            svg={SmallLinkInSVG}
-                        />
-                        <LinkButton
-                            link={contactInfo.gitHub}
-                            text={"Visit my Github"}
-                            svg={SmallGithubSVG}
-                        />
-                    </div>
-            </div>
-        </div>
-    </Container>
+        </Container>
+    </div>
 )
