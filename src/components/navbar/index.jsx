@@ -5,7 +5,7 @@ import { SmallGithubSVG } from "../../svgs/gitHubSVG";
 import { Container } from "../common/container";
 import { LinkButton } from "../common/linkButton";
 
-export const Navbar = () => {
+export const Navbar = ({ links}) => {
 
   const handleLiClick = (e) => {
     if(e.target.localName === 'a'){
@@ -47,12 +47,12 @@ export const Navbar = () => {
                     
               <div className={styles.links}>
                     <LinkButton
-                      link={"https://www.linkedin.com/in/dennis-galinsky-a1b406150/"}
+                      link={links.linkedIn}
                       text={"Connect with me"}
                       svg={SmallLinkInSVG}
                     />
                     <LinkButton
-                      link={"https://github.com/dennis-bg"}
+                      link={links.gitHub}
                       text={"Visit my Github"}
                       svg={SmallGithubSVG}
                     />

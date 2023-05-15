@@ -9,7 +9,7 @@ import { Skills } from './components/skills';
 function App() {
   return (
     <div style={{backgroundColor: "#f5f5f5"}}>
-      <Navbar/>
+      <Navbar links={content.contactInfo}/>
       <Hero/>
       <Experience experience={content.experience}/>
       <Skills skills={content.skills}/>
