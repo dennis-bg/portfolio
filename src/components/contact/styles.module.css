@@ -23,9 +23,10 @@
 
 .links {
     margin-top: 1.5em;
+    justify-content: space-between;
 }
 
-.links a{
+/* .links a{
     margin-left: 0;
     margin-right: 1em;
-}
+} */

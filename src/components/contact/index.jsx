@@ -29,8 +29,8 @@ export const Contact = ({ contactInfo }) => (
                                 text={"Email me"}
                                 svg={MailSVG}
                             />
-                        </div>
-                        <div className={styles.links}>
+                        {/* </div>
+                        <div className={styles.links}> */}
                             <LinkButton
                                 link={contactInfo.linkedIn}
                                 text={"Connect with me"}
