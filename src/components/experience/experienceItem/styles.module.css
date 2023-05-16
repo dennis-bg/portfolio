@@ -34,3 +34,24 @@
     margin-bottom: 1em;
     opacity: 0.9;
 }
+
+@media only screen and (max-width: 1200px) {
+
+    .item {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .item h3, .item h4 {
+        text-align: center;
+    }
+
+    .item h3 {
+        font-size: 3em;
+    }
+
+}
