@@ -1,3 +1,37 @@
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.left, .right {
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right svg {
+  width: 600px;
+  position: relative;
+}
+
+/* .right svg:before {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 5%;
+  width: 90%;
+  height: 20px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(10px);
+} */
+
 .hero {
     margin-top: 7vh;
     height: 100vh;
