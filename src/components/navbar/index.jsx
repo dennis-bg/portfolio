@@ -22,7 +22,9 @@ export const Navbar = ({ links}) => {
           <Container>
 
             <div className={styles.links}>
+            <Link activeClass={styles.active} to="hero" smooth={true} offset={-65} duration={1000}>
             <h5>Dennis Galinsky</h5>
+              </Link>
 
       <nav>
           <ul>

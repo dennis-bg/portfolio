@@ -70,6 +70,7 @@
   .navBar h5 {
     font-size: 1em;
     margin-right: 20px;
+    cursor: pointer;
   }
 
   .navBar nav {

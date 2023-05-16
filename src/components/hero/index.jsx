@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "../common/container";
 import { FeelingProudSVG } from '../../svgs/FeelingProud';
-import styles from './styles.module.css';
 import { Link } from "react-scroll";
+import styles from './styles.module.css';
 const resume = require('./Dennis Galinsky Resume.pdf');
 
 export const Hero  = () => {
@@ -11,14 +11,11 @@ export const Hero  = () => {
 
     return (
         <Container>
-            <div className={styles.heroContainer}>
+            <div className={styles.heroContainer} id="hero">
                 <div className={styles.left}>
                   <div className={styles.hero}>
                   <div className={styles.h1Container}>
-                  <Link to="experience" smooth={true} offset={-65} duration={1000}>
-
-                    <h1>Dennis <span>Galinsky</span></h1>
-                  </Link>
+                      <h1>Dennis <span>Galinsky</span></h1>
                   </div>
                   <div className={styles.pContainer}>
                     <p>Software Engineer in the New York City area, Interested in exciting opportunities in Frontend development but open to any positions!</p>
