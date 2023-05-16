@@ -7,7 +7,7 @@ export const SkillsItem = ({ title, skillList, svg }) => (
         <h3>{title}</h3>
         <ul>
             {skillList.map(item => 
-                <li>{item}</li>    
+                <li key={item}>{item}</li>    
             )}
         </ul>
     </div>
