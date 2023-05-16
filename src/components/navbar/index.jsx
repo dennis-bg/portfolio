@@ -27,16 +27,16 @@ export const Navbar = ({ links}) => {
       <nav>
           <ul>
             <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="experience" smooth={true} offset={-65} duration={500} spy={true}>Experience</Link>
+              <Link activeClass={styles.active} to="experience" smooth={true} offset={-65} duration={1000} spy={true}>Experience</Link>
             </li>
             <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="skills" smooth={true} offset={-65} duration={500} spy={true}>Skills</Link>
+              <Link activeClass={styles.active} to="skills" smooth={true} offset={-65} duration={1000} spy={true}>Skills</Link>
             </li>
             <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="projects" smooth={true} offset={-65} duration={500} spy={true}>Projects</Link>
+              <Link activeClass={styles.active} to="projects" smooth={true} offset={-65} duration={1000} spy={true}>Projects</Link>
             </li>
             <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="contact" smooth={true} offset={-65} duration={500} spy={true}>Contact</Link>
+              <Link activeClass={styles.active} to="contact" smooth={true} offset={-65} duration={1000} spy={true}>Contact</Link>
             </li>
 
               
