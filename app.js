@@ -89,4 +89,4 @@ const navSlide = () => {
 }
 
 navSlide();
-alert("I am currently working on migrating this page to React with a slightly better UI. Please be patient for this update coming very soon!")
+setTimeout(alert("I am currently working on migrating this page to React with a slightly better UI. Please be patient for this update coming very soon!"), 1000)
