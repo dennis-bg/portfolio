@@ -7,3 +7,9 @@
     text-align: center;
     letter-spacing: 0.075em;
 }
+
+@media only screen and (max-width: 400px){
+    .titleContainer h2 {
+        font-size: 2.5em;
+    }
+}

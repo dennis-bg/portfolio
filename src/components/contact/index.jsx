@@ -19,26 +19,34 @@ export const Contact = ({ contactInfo }) => (
                 </div>
                 <div className={styles.right}>
                         <div className={styles.links}>
-                            <LinkButton
-                                link={contactInfo.phone}
-                                text={"Call me"}
-                                svg={PhoneSVG}
-                            />
-                            <LinkButton
-                                link={contactInfo.email}
-                                text={"Email me"}
-                                svg={MailSVG}
-                            />
-                            <LinkButton
-                                link={contactInfo.linkedIn}
-                                text={"Connect with me"}
-                                svg={SmallLinkInSVG}
-                            />
-                            <LinkButton
-                                link={contactInfo.gitHub}
-                                text={"Visit my Github"}
-                                svg={SmallGithubSVG}
-                            />
+                            <div>
+                                <LinkButton
+                                    link={contactInfo.phone}
+                                    text={"Call me"}
+                                    svg={PhoneSVG}
+                                />
+                            </div>
+                            <div>
+                                <LinkButton
+                                    link={contactInfo.email}
+                                    text={"Email me"}
+                                    svg={MailSVG}
+                                />
+                            </div>
+                            <div>
+                                <LinkButton
+                                    link={contactInfo.linkedIn}
+                                    text={"Connect with me"}
+                                    svg={SmallLinkInSVG}
+                                />
+                            </div>
+                            <div>
+                                <LinkButton
+                                    link={contactInfo.gitHub}
+                                    text={"Visit my Github"}
+                                    svg={SmallGithubSVG}
+                                />
+                            </div>
                         </div>
                 </div>
             </div>

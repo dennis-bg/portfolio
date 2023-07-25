@@ -1,5 +1,6 @@
 .contact {
     padding-bottom: 15em;
+    display: flex;
 }
 
 .contact, .links {
@@ -26,7 +27,36 @@
     justify-content: space-between;
 }
 
-/* .links a{
-    margin-left: 0;
-    margin-right: 1em;
-} */
+.links div {
+    margin-bottom: 1em;
+    display: flex;
+}
+
+@media only screen and (max-width: 1600px) {
+    .links {
+        flex-direction: column;
+    }
+
+    .links div {
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact .right {
+        margin-bottom: 2em;
+        padding-left: 0;
+    }
+
+    .left, .right {
+        width: 100%;
+        justify-content: center;
+    }
+}
