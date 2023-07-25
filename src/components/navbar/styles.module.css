@@ -53,9 +53,7 @@
   .navBar .links {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: center;
-    /* width: 100% */
   }
 
   .navBar > div > div {
@@ -73,14 +71,6 @@
     cursor: pointer;
   }
 
-  .navBar nav {
-    width: 50%;
-    height: 7vh;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: flex-end; */
-  }
-
   .navBar ul {
     list-style-type: none;
     display: flex;
@@ -89,8 +79,6 @@
     height: 100%;
     width: 100%;
     margin: 0;
-    /* min-width: 350px; */
-    /* max-width: 450px; */
   }
 
   .navBar li {
@@ -118,6 +106,10 @@
   .navBar li:hover a{
     color: var(--green);
     transition-duration: 0.25s;
+  }
+
+  @media only screen and (max-width: 1200px) {
+
   }
 
   

@@ -4,16 +4,14 @@ import { SmallLinkInSVG } from "../../svgs/linkedInSVG";
 import { SmallGithubSVG } from "../../svgs/gitHubSVG";
 import { Container } from "../common/container";
 import { LinkButton } from "../common/linkButton";
+import { NavLinks } from "./navlinks";
+import { useWindowWidth } from "../../hooks/useWindowWidth";
+import { MobileMenu } from "./mobileMenu";
 import styles from './styles.module.css'
 
-export const Navbar = ({ links}) => {
+export const Navbar = ({ links }) => {
 
-  const handleLiClick = (e) => {
-    if(e.target.localName === 'a'){
-      return;
-    }
-    e.target.children[0].click();
-  }
+  const screenWidth = useWindowWidth();
 
   return (
         <div className={styles.navBar}>
@@ -22,33 +20,16 @@ export const Navbar = ({ links}) => {
           <Container>
 
             <div className={styles.links}>
-            <Link activeClass={styles.active} to="hero" smooth={true} offset={-65} duration={1000}>
-            <h5>Dennis Galinsky</h5>
-              </Link>
+                <Link activeClass={styles.active} to="hero" smooth={true} offset={-65} duration={1000}>
+                  <h5>Dennis Galinsky</h5>
+                </Link>
 
-      <nav>
-          <ul>
-            <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="experience" smooth={true} offset={-65} duration={1000} spy={true}>Experience</Link>
-            </li>
-            <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="skills" smooth={true} offset={-65} duration={1000} spy={true}>Skills</Link>
-            </li>
-            <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="projects" smooth={true} offset={-65} duration={1000} spy={true}>Projects</Link>
-            </li>
-            <li onClick={e => handleLiClick(e)}>
-              <Link activeClass={styles.active} to="contact" smooth={true} offset={-65} duration={1000} spy={true}>Contact</Link>
-            </li>
+                {screenWidth > 1200 && <NavLinks/>}
 
-              
-          </ul>
-
-          
-      </nav>
             </div>
                     
-              <div className={styles.links}>
+            {screenWidth > 1200 
+              ? <div className={styles.links}>
                     <LinkButton
                       link={links.linkedIn}
                       text={"Connect with me"}
@@ -59,7 +40,9 @@ export const Navbar = ({ links}) => {
                       text={"Visit my Github"}
                       svg={SmallGithubSVG}
                     />
-                </div>
+              </div> 
+              : <MobileMenu/>
+            }
           </Container>
 
         
